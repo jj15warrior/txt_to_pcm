@@ -8,7 +8,7 @@ samplerate = 44100
 t = np.linspace(0., 1., samplerate)
 oneletter_per_sample = 0.000226757
 
-open("example.wav", "w").close()
+open("output.pcm", "w").close()
 
 inp_txt = "qwerty TEST 123 ! [](){}\\|//?.,"
 
